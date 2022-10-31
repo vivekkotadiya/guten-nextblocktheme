@@ -1,0 +1,80 @@
+/*
+Theme Name: Next Block Theme
+Theme URI:
+Author: Next Block Theme
+Author URI: https://wordpress.org/
+Description:
+Tags: full-site-editing, blog
+Version: 1.0.0
+Requires at least: 5.9
+Tested up to: 5.9
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: nextBlockTheme
+ 
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*
+Fonts Load
+*/
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./assets/fonts/barlow-semibold.woff2') format('woff2'),
+        url('./assets/fonts/barlow-semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./assets/fonts/barlow-light.woff2') format('woff2'),
+        url('./assets/fonts/barlow-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./assets/fonts/barlow-regular.woff2') format('woff2'),
+        url('./assets/fonts/barlow-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./assets/fonts/barlow-medium.woff2') format('woff2'),
+        url('./assets/fonts/barlow-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./assets/fonts/barlow-bold.woff2') format('woff2'),
+        url('./assets/fonts/barlow-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Global ---*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Barlow';
+}
+
